@@ -1,0 +1,29 @@
+{
+    "name": "cresenity/devsuite-cli",
+    "description": "CF Development Tools",
+    "keywords": ["cresenity", "cf"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hery Kurniawan"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "symfony/process": "~3.0|~4.0|~5.0",
+        "nategood/httpful": "~0.2",
+        "tightenco/collect": "^5.3|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2.3",
+        "yoast/phpunit-polyfills": "^0.2.0"
+    },
+    "bin": [
+        "devsuite"
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    }
+}
